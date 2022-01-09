@@ -1,7 +1,9 @@
 # GPIO I2C pHAT
 
 <p align="center">
-    <img alt="GPIO I2C pHAT" src="/img/gpio-i2c-phat.jpg" width="500">
+    <a href="https://plasmadan.com/gpioi2c?utm_source=github&utm_medium=banner" target="_blank" rel="nofollow">
+        <img alt="GPIO I2C pHAT" src="/img/gpio-i2c-phat.jpg" width="500">
+    </a>
 </p>
 
 ## Usage
