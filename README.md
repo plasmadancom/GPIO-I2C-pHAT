@@ -1,24 +1,8 @@
 # GPIO I2C pHAT
 
-The GPIO I2C pHAT is an I2C switch for Raspberry Pi which remaps the I2C bus (pins 3 & 5) to 1 of 4 additional buses, allowing any I2C based add-on board to use an alternative I2C bus, without the need for multiplexers or expanders.
-
-Makes use of the extra hardware I2C buses introduced on Raspberry Pi 4 (BCM2711) or software I2C (bit bang). Switching is controlled using a 4-position double-pole slide switch, which allows you to quickly switch between buses.
-
-Multiple GPIO I2C boards can be stacked along with other HATs or pHATs, and it's fully compatible with our [HAT RACK](https://github.com/plasmadancom/HAT-RACK) mounting boards.
-
-Includes a breakout header for the 4 extra I2C buses. These are always connected to the associated GPIO pins so can be used regardless of the switch position. Note: external pull-up resistors to 3.3V required.
-
-
-## Features
-
-* Adds 4 additional I2C buses with breakout
-* User selectable I2C GPIO pin remapping
-* Slide switch allows fast bus switching
-* No-conflict solder jumpers
-* Stackable design
-* Immersion gold plated copper
-* UL, CE, UKCA and RoHS (lead free) compliant
-
+<p align="center">
+    <img alt="GPIO I2C pHAT" src="/img/gpio-i2c-phat.jpg" width="500">
+</p>
 
 ## Usage
 
@@ -32,18 +16,6 @@ Add required dtoverlay parameter(s) to ```/boot/config.txt``` and reboot.
 | I2C6 | dtoverlay=i2c6 | dtoverlay=i2c-gpio,bus=6,i2c_gpio_sda=22,i2c_gpio_scl=23 | 22 23 |
 
 Note: When using multiple software I2C buses, add the parameters from highest to lowest, i.e., 6, 5, 4, 3.
-
-## Device Compatibility
-
-GPIO I2C pHAT is compatible with all **40-way** Raspberry Pi models.
-
-| Device Model | Compatibility |
-| --- | :---: |
-| Raspberry Pi 1 Model A+/B/B+ | &#x2714;&#xFE0F; |
-| Raspberry Pi 2 Model B | &#x2714;&#xFE0F; |
-| Raspberry Pi 3 Model B+ | &#x2714;&#xFE0F; |
-| Raspberry Pi 4 | &#x2714;&#xFE0F; |
-| Raspberry Pi Zero | &#x2714;&#xFE0F; |
 
 ## Dimensions
 
