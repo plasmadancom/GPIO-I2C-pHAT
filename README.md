@@ -1,5 +1,7 @@
 # GPIO I2C pHAT
 
+* [Schematic](https://github.com/plasmadancom/GPIO-I2C-pHAT/blob/main/docs/gpio-i2c-phat-v1.0-schematic.pdf)
+
 <p align="center">
     <a href="https://plasmadan.com/gpioi2c?utm_source=github&utm_medium=banner" target="_blank" rel="nofollow">
         <img alt="GPIO I2C pHAT" src="/img/gpio-i2c-phat.jpg" width="500">
